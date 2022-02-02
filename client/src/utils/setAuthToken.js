@@ -1,6 +1,6 @@
 import api from './api';
 
-// store our JWT in LS and set axios headers if we do have a token
+// store our JWT in Local Storage and set axios headers if we do have a token
 
 const setAuthToken = (token) => {
   if (token) {
